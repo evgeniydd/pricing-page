@@ -1,0 +1,60 @@
+@import './variables.scss';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $font-family-poppins;
+	background: linear-gradient(to bottom, #{$bg-gradient-colors});
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	color: $main;
+	overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: $main;
+}
+
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+button {
+	border: 0;
+	outline: none;
+	background: none;
+}
+
+.container {
+	max-width: 969px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
