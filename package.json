@@ -8,7 +8,8 @@
 		"dev": "gulp",
 		"build": "gulp build --build",
 		"zip": "gulp deployZIP --build",
-		"svgSprites": "gulp svgSprites"
+		"svgSprites": "gulp svgSprites",
+		"deploy": "gulp deployGh --build"
 	},
 	"author": "",
 	"license": "ISC",
@@ -22,6 +23,7 @@
 		"gulp-file-include": "^2.3.0",
 		"gulp-fonter": "^0.3.0",
 		"gulp-fontfacegen": "^1.0.7",
+		"gulp-gh-pages": "^0.5.4",
 		"gulp-group-css-media-queries": "^1.2.2",
 		"gulp-if": "^3.0.0",
 		"gulp-imagemin": "^9.0.0",
